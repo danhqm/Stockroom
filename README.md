@@ -35,3 +35,7 @@ The suite uses the separate `mysql-test` service with temporary storage. It cove
 A manager issues an order. Staff record delivered and damaged quantities on a draft and confirm it after review. Receiving 6 of 10 mugs with 1 damaged adds 5 usable mugs to stock and leaves 5 outstanding. Inventory movements link to the receipt and actor. Only a manager can reverse a confirmed receipt.
 
 The optional OpenAI extraction reads one JPEG or PNG delivery note per receipt and suggests fields for review. It is disabled by default. Manual receiving works without it. See the [API walkthrough](docs/api.md) and [approved backend design](docs/backend-design.md).
+
+## Demo Video
+
+https://github.com/user-attachments/assets/30f6263c-4daf-4793-9fce-64676144efaa
