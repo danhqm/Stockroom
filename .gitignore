@@ -1,0 +1,21 @@
+.env
+/backend/.env
+/backend/vendor/
+/backend/node_modules/
+/backend/storage/*.key
+/backend/.phpunit.result.cache
+
+# Local configuration and Docker overrides
+.env.*
+!.env.example
+/backend/.env.*
+!/backend/.env.example
+/compose.override.yaml
+/compose.override.yml
+
+# Locally generated Laravel Boost agent files
+/backend/.claude/
+/backend/.mcp.json
+/backend/AGENTS.md
+/backend/CLAUDE.md
+/backend/boost.json
